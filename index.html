@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0"> 
+        <title>Taller5</title>
+    </head>
+    <body>
+        <h1>Inicia Session</h1>
+        <button id="loginGoogle">
+            Inicia con google
+        </button>
+        <button id="loginFacebook">
+            Inicia con Facebook
+        </button>
+        <div id="root">
+            <img id="avatar" src="" alt="">
+        </div>
+       
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      
+      
+            <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-auth.js"></script>
+              <!-- firebaseUI -->
+            <script src="htttps://www.gstatic.com/firebase/6.2.0/firebase-database.js"></script>
+            
+
+        <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyAAbWRTeE3BJfrMmhcLl0eCMnDMKzAEtyo",
+            authDomain: "taller05-6325d.firebaseapp.com",
+            databaseURL: "https://taller05-6325d.firebaseio.com",
+            projectId: "taller05-6325d",
+            storageBucket: "taller05-6325d.appspot.com",
+            messagingSenderId: "212716877615",
+            appId: "1:212716877615:web:496b48d44f13e0ecf413da",
+            measurementId: "G-C6YXJSKYZH"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        </script>
+      
+      <script src="App.js"></script>
+    </body>
+</html>
